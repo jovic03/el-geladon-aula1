@@ -5,5 +5,5 @@ import { PaletaService } from "./Paleta.service";
 @Module({
     controllers:[PaletaController],
     providers:[PaletaService],
-})
+})//teste de branch
 export class PaletaModule{}
