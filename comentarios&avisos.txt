@@ -18,3 +18,15 @@ npm *run* build pra rodar o build (nao somente npm build como é com npm star);
 npm *run* build-and-run
 ----------------------------------------------------------------
 npm run start:dev ---- roda o nest e ativa localhost
+
+estrutura do nest generate
+npx nest generate + resource(crud completo)/module/service/controller
+****mas na duvida digita no terminal "npx nest" que ira aparecer as opcoes que ele tem*****
+
+npx nest generate resource>users>REST API>CRUD=Yes --- gera o crud completo
+
+npx nest generate module App --- vai gerar só o modulo App (ou seja diferente do anterior gera somente o que vc especifica)
+npx nest generate controller App --- igual o de cima
+npx nest generate service App --- igual
+
+npx nest generate resource --no-spec  -----gera tudo mas nao gera o test
